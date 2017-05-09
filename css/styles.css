@@ -1,0 +1,98 @@
+/* CSS DOCUMENT */
+
+html {}
+
+nav {
+    font-family: sans-serif;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    background: #000000;
+    width: 100%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    float: left;
+    border: 1px solid transparent;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    transition: .5s;
+}
+
+a:hover {
+    background-color: slategray;
+    padding: 15px;
+    transition: .5s;
+}
+
+
+/* this is the title*/
+
+#content {
+    font-family: sans-serif;
+    margin-top: 100px;
+    line-height: .4;
+}
+
+#content .light {
+    font-weight: 100;
+}
+
+
+table td {
+    
+    border-left: 1px solid #e2e2e2;
+    border-right: 1px solid #e2e2e2;
+    padding: 2.5px 2em;
+}
+
+table .nopadding {
+    padding-left: 10px;
+    font-weight: 600;
+}
+
+table th {
+    vertical-align: baseline;
+}
+
+table {
+    width: 100%;
+    font-family: sans-serif;
+    border-collapse: collapse;
+}
+
+#leftalign {
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: beige;
+}
+
+tr:nth-child(2) {
+    border-top: 1px solid #e2e2e2;
+}
+
+tr:nth-child(8) {
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.italic {
+    font-style: italic;
+    font-weight: 100;
+}
