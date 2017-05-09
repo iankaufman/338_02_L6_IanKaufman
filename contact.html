@@ -9,6 +9,7 @@
 <body>
     <nav>
         <ul>
+            <li> <a href="index.html">Home</a> </li>
             <li id="icon "><a href="about.html">About Us</a> </li>
             <li><a href=".html">Member Login</a> </li>
             <li><a href="about.html">Our Store</a> </li>
@@ -22,6 +23,7 @@
 
         </div>
     <!-- beginning of form -->
+    <div class="formcontainer">
         <form>
 
            <p>First Name: <input type="text" name="firstname" placeholder="First name..."
@@ -116,16 +118,18 @@
             <input type="checkbox" name="color"
             value="red" /> Red
             </p>
+            <img src="images/visa.gif" alt="visa logo"><img src="images/mastercard.gif" alt="mastercard logo"><img src="images/americanexpress.gif" alt="amex logo">
             <p>Credit card number: <input type="password" name="creditcardnumber1"  size="4" maxlength="4" /> - <input type="password" name="creditcardnumber2"  size="4" maxlength="4" /> - <input type="password" name="creditcardnumber3"  size="4" maxlength="4" /> - <input type="password" name="creditcardnumber4"  size="4" maxlength="4" />
             Expiration date: <input type="text" name="expdate"  size="6" maxlength="5" placeholder="MM/YY" />
             CVV: <input type="text" name="cvv"  size="4" maxlength="3" placeholder="123" /></p>
             
             
-    
+    <input id="submit" type="submit"
+value="Submit" />
     
         </form>
-    <p>Text area</p>
-<textarea name="comments" cols="20" rows="4" placeholder="Enter your comments..." ></textarea>
+   
+        </div>
     
 
 

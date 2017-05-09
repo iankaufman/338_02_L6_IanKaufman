@@ -1,5 +1,6 @@
 /* CSS DOCUMENT */
 
+/* my css begins here */
 html {}
 
 nav {
@@ -16,6 +17,7 @@ nav {
     display: -webkit-flex;
     display: flex;
     justify-content: flex-end;
+        
 }
 
 ul {
@@ -38,6 +40,10 @@ a:hover {
     background-color: slategray;
     padding: 15px;
     transition: .5s;
+}
+a:visited {
+    text-decoration: none;
+    color: white;
 }
 
 
@@ -98,7 +104,44 @@ tr:nth-child(8) {
     font-weight: 100;
 }
 /* input contact page css begins */
-input {
-    background-color: aliceblue;
+.formcontainer{
+   max-width: 570px;
+    background: #f8f8f8;
+    padding: 20px;
+    font-size: .95em;
+     font-family: 'Oxygen', sans-serif;
+    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+    border-radius: 10px;
+    border: 5px solid #559570;
     
+}
+.formcontainer img{
+    height: 25px;
+    margin: 0 auto;
+}
+input {
+    padding: 8px;
+    border: 1px solid #e5e5e5;
+    -webkit-transition: all 0.20s ease-in-out;
+    -moz-transition: all 0.20s ease-in-out;
+    -ms-transition: all 0.20s ease-in-out;
+    -o-transition: all 0.20s ease-in-out;
+}
+input:hover{
+    box-shadow: 0 0 1px #020202;
+   -webkit-transition: all 0.20s ease-in-out;
+    -moz-transition: all 0.20s ease-in-out;
+    -ms-transition: all 0.20s ease-in-out;
+    -o-transition: all 0.20s ease-in-out;
+}
+#submit{
+    
+   
+    background-color: #35b16e;
+    font-size: 1em;
+    display: inline-block;
+    cursor: pointer;
+    color: #FFFFFF;
+    padding: 10px 12px;
+    text-decoration: none;
 }
